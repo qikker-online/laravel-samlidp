@@ -1,7 +1,4 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codegreencreative/laravel-samlidp.svg?style=flat-square)](https://packagist.org/packages/codegreencreative/laravel-samlidp)
-[![Total Downloads](https://img.shields.io/packagist/dt/codegreencreative/laravel-samlidp.svg?style=flat-square)](https://packagist.org/packages/codegreencreative/laravel-samlidp)
-
-# Laravel (5.6+) SAML idP
+# Laravel 6 SAML idP - Not fully tested
 
 This package allows you to implement your own Identification Provider (idP) using the SAML 2.0 standard to be used with supporting SAML 2.0 Service Providers (SP).
 
@@ -10,7 +7,7 @@ This package allows you to implement your own Identification Provider (idP) usin
 Require this package with composer:
 
 ```shell
-composer require codegreencreative/laravel-samlidp
+composer require qikker-online/laravel-samlidp
 ```
 
 Publish config
@@ -180,3 +177,13 @@ class SamlAssertionAttributes
 }
 
 ```
+
+## Usefull URLS
+
+[Overall Explanation](https://imbringingsyntaxback.com/implementing-a-saml-idp-with-laravel/)
+
+[Other Basic Explanation](https://github.com/jch/saml)
+
+[For Testing](https://samltest.id/)
+
+[Other Usefull Tools](https://www.samltool.com/online_tools.php)

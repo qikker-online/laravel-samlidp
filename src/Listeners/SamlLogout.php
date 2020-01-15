@@ -16,8 +16,8 @@ class SamlLogout
     public function handle(Logout $event)
     {
         // Make sure we are not in the process of SLO when handling the redirect
-        if (!session('saml.slo')) {
-            abort(redirect('saml/logout'), 200);
-        }
+//        if (!session('saml.slo')) {
+//            abort(redirect('saml/logout'), 200);
+//        }
     }
 }

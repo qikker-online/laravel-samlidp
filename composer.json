@@ -11,8 +11,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/qikker-online/lightSAML"
+            "type": "git",
+            "url": "https://github.com/qikker-online/lightsaml"
         }
     ],
     "autoload": {
